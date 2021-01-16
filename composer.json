@@ -1,0 +1,36 @@
+{
+  "name": "melih058/yii2-migrations",
+  "description": "Yii2 migrate Module",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "melih058",
+      "email": "melih_caliskan58@hotmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "yiisoft/yii2": "~2.0.13"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "8.*.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "melih058\\migrations\\": "./"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "melih058\\migrations\\tests\\": "tests"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
